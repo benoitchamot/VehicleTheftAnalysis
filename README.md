@@ -12,11 +12,11 @@ This case, and the data behind is, was proposed by [Maven Analytics](https://app
 ### Location
 There exist strong correlations between the population in a region and the number of vehicles stolen, as well as the population density and the thefts. It is expected that the more people live in a region, the more vehicles there will be and therefore the higher the chance of theft (all other parameters being constant).
 
-![](/Images/population_vs_density.png)
+![](/Images/thefts_per_population.png)
 
 We therefore focused on looking at the number of vehicle thefts per 1000 inhabitants instead.
 
-![](/Images/thefts_per_population.png)
+![](/Images/population_vs_density.png)
 
 The region of Nelson stood out in this part of the analysis with a number of vehicles stolen significantly above the national average. While the root cause for this result is beyond the scope of this project, it is strongly advise that the New Zealand police focuses at least part of their campaign on the Nelson area. Over the period considered, 92 vehicles were stolen. While this is a far cry from Auckland's 1638, the small population of Nelson makes it an interesting test bed for any campaign as measuring any impact should be easier.
 
