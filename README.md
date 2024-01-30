@@ -34,7 +34,7 @@ The region of Nelson stood out in this part of the analysis with a number of veh
 ![](/Images/thefts_day_of_the_week.png)
 
 ## Data
-### Extracation, Transformation, Loading (ETL) 
+### Extraction, Transformation, Loading (ETL) 
 The main data source was provided by Maven Analytics, LLC as part of the Vehicle Theft Analysis projects. The data provided was already cleaned and could be used as is once loaded into a MySQL database using the file `create_stolen_vehicles_db.sql`, which contains the necessary SQL queries to create the tables and populate them.
 
 Two other sources were used:
