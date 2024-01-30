@@ -10,16 +10,28 @@ This case, and the data behind is, was proposed by [Maven Analytics](https://app
 
 ## Insights
 ### Location
-There exist strong correlations between the population in a region and the number of vehicles stolen, as well as the population density and the thefts. It is expected that the more people live in a region, the more vehicles there will be and therefore the higher the chance of theft (all other parameters being constant). We therefore focused on looking at the number of vehicle thefts per 1000 inhabitants instead.
+There exist strong correlations between the population in a region and the number of vehicles stolen, as well as the population density and the thefts. It is expected that the more people live in a region, the more vehicles there will be and therefore the higher the chance of theft (all other parameters being constant).
+
+![](/Images/population_vs_density.png)
+
+We therefore focused on looking at the number of vehicle thefts per 1000 inhabitants instead.
+
+![](/Images/thefts_per_population.png)
 
 The region of Nelson stood out in this part of the analysis with a number of vehicles stolen significantly above the national average. While the root cause for this result is beyond the scope of this project, it is strongly advise that the New Zealand police focuses at least part of their campaign on the Nelson area. Over the period considered, 92 vehicles were stolen. While this is a far cry from Auckland's 1638, the small population of Nelson makes it an interesting test bed for any campaign as measuring any impact should be easier.
+
+![](/Images/map_regions.png)
 
 ### Type of vehicles
 * From the data available, silver, white and black vehicles, of type stationwagon, hatchback and trailers are the most likely target. However, it is very important to note that these types and colours could simply be the most common ones. Further analysis of the vehicles sold in New Zealand would be needed to see if this correlates.
 
+![](/Images/types_and_colours.png)
+
 ### Other information requiring more analysis
 * From the data available, it looks like thefts are marginally more likely to happen on Mondays and Tuesdays
 * The available data shows that March 2022 had the highest number of thefts and April 2022 had the lowest. The average per month could be increasing between 2021 and 2022, however, since both yearly report are incomplete (not covering the same months), a year-by-year comparison is not possible. It is not possible to indicate whether thefts are increasing between 2021 and 2022 or whether we are only observing a seasonal phenomenon. The recommendation is to not favour any particular seaons or month for a campaign at this stage. More data will be needed to assess long-term trend and seasonal variations.
+
+![](/Images/thefts_day_of_the_week.png)
 
 ## Data
 ### Extracation, Transformation, Loading (ETL) 
